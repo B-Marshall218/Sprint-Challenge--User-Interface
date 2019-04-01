@@ -143,13 +143,14 @@ img.jumboab{
     border: 2px solid black;
 /*     border: 5px solid green; */
 }
+
 .card img{
     margin: 10px 0;
 }
 .work-together{
     /* border: 2px solid turquoise; */
     margin: 25px 0 30px 30px;
-    
+
 }
 footer{
     margin: 20px;
