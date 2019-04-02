@@ -1,0 +1,180 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+/* box-sizing: border-box; */
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+    font-weight: bold;
+    /* border: 2px solid salmon; */
+}
+
+header {
+    font-family: 'Roboto', sans-serif; 
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: baseline;
+    text-decoration: none;
+    /* border: 2px solid sienna; */
+}
+img.logo{
+    /* border: 2px solid forestgreen; */
+}
+
+header nav {
+    /* border: 5px solid indianred; */
+    margin-top: 50px; 
+    width: 620px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    
+}
+header nav a {
+    text-decoration: none;
+    color: black; 
+}
+header nav a:visited{
+    text-decoration: none;
+    color: black; 
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+  }
+  
+img.jumboab{
+    /* border: 2px solid teal; */
+    margin: 30px 0 15px 0; 
+}
+
+.about-section{
+    /* border: 2px solid yellowgreen; */
+    margin: 0 30px;
+    padding: 10px;
+    
+}
+.container-about-page .cards{
+    padding: 20px;
+    width: 800px;
+    /* background: whitesmoke; */
+    margin: 15px 0;
+    /* border: 1px solid blue; */
+    border-top: 2px dotted black;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+.card{
+    margin: 10px;
+    padding: 5px;
+    flex: 0 2 24%;
+    border-bottom: 2px dotted black;
+    /* border: 3px solid burlywood; */
+    
+}
+.card button {
+    padding: 10px 30px;
+    margin: 10px 0 20px 0;
+    font-weight: bold;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid black;
+/*     border: 5px solid green; */
+}
+
+.card img{
+    margin: 10px 0;
+}
+.work-together{
+    /* border: 2px solid turquoise; */
+    margin: 25px 0 30px 30px;
+
+}
+
+footer{
+    margin: 20px;
+    padding: 30px;
+    /* border: 2px solid khaki;  */
+    background: black;
+}
+
+footer nav{
+    font-size: 13px;
+    font-weight: normal;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid khaki;  */
+}
+footer nav a{
+    /* border: 2px solid gold; */
+    color: rgb(206, 200, 200);
+    text-decoration: none;
+}
+footer nav a:visited{
+    color: rgb(206, 200, 200)}
+
+
+ 
